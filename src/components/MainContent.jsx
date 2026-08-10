@@ -277,7 +277,7 @@ export default function MainContent() {
               </a>
               <div className="campus-btn-row">
                 <a href="#" className="campus-btn-outline">⬇ Download Template</a>
-                <a href="https://cmt3.research.microsoft.com/AICARE202" target="_blank" rel="noreferrer" className="campus-btn">↗ Submit via CMT</a>
+                <a href="https://cmt3.research.microsoft.com/AICARE2027" target="_blank" rel="noreferrer" className="campus-btn">↗ Submit via CMT</a>
               </div>
             </div>
           </div>
