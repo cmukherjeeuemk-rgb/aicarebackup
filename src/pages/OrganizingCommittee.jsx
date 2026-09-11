@@ -5,8 +5,10 @@ const committeeData = [
     members: [{ name: "Prof. Banani Chakrabarty", role: "Chief Patron" }],
   },
   {
+    members: [{ name: "Prof. Dr. Satyajit Chakrabarty", role: "Patron" }],
+  },
+  {
     members: [
-      { name: "Prof. Dr. Satyajit Chakrabarty", role: "Patron" },
       { name: "Prof. Dr. Kamakhya Prasad Ghatak", role: "Co-Patron" },
       { name: "Prof. Dr. Sukalyan Goswami", role: "Co-Patron" },
       { name: "Prof. Dr. Abir Chattapadhyay", role: "Co-Patron" },
@@ -19,16 +21,61 @@ const committeeData = [
       { name: "Prof. Dr. Sudipta Basu Pal", role: "Conference Chair" },
       { name: "Prof. Dr. Anirban Das", role: "Organizing Chair" },
       { name: "Prof. Sujata Ghatak", role: "Organizing Co-Chair" },
+      { name: "Prof. Dr. Kuheli Goswami", role: "Organizing Co-Chair" },
+    ],
+  },
+  {
+    members: [{ name: "Prof. Dr. Chiradeep Mukherjee", role: "TPC Chair" }],
+  },
+  {
+    members: [
+      { name: "Prof. Dr. Maumita Das", role: "TPC Co-Chair" },
+      { name: "Prof. Dr. Koustov Mondal", role: "TPC Co-Chair" },
+    ],
+  },
+  {
+    members: [{ name: "Prof. Dr. Arnab Ghosh", role: "Publication Chair" }],
+  },
+  {
+    members: [
+      { name: "Prof. Dr. Arijeet Ghosh", role: "Publication Co-Chair" },
+      { name: "Prof. Dr. Sananda Pal", role: "Publication Co-Chair" },
+      { name: "Prof. Dr. Rajarshi Mukhopadhyay", role: "Publication Co-Chair" },
+    ],
+  },
+  {
+    members: [{ name: "Prof. Dr. Tanay Pramanik", role: "Publicity Chair" }],
+  },
+  {
+    members: [
+      { name: "Prof. Dr. Keya De Mukhopadhyay", role: "Publicity Co-Chair" },
+      { name: "Prof. Dr. Moupiya Ghosh", role: "Publicity Co-Chair" },
     ],
   },
   {
     members: [
-      { name: "Prof. Dr. Chiradeep Mukherjee", role: "TPC Chair" },
-      { name: "Prof. Dr. Arnab Ghosh", role: "Publication Chair" },
-      { name: "Prof. Dr. Arijeet Ghosh", role: "Publication Co-Chair" },
-      { name: "PROF.DR. SANANDA PAL", role: "Publication Co-Chair" },
-      { name: "Prof. Dr. Maumita Das", role: "TPC Co-Chair" },
-      { name: "Prof. Dr. Koustov Mondal", role: "TPC Co-Chair" },
+      { name: "Prof. Dr. Sayantan Sil", role: "Finance Chair" },
+      { name: "Prof. Dr. Arkabrata Gupta", role: "Finance Co-Chair" },
+    ],
+  },
+  {
+    members: [{ name: "Prof. Dr. Abhishek Haldar", role: "Hospitality Chair" }],
+  },
+  {
+    members: [
+      { name: "Prof. Subrata Mondal", role: "Hospitality Co-Chair" },
+      { name: "Prof. Isita Chandra", role: "Hospitality Co-Chair" },
+      { name: "Prof. Pradipta Sarkar", role: "Hospitality Co-Chair" },
+      { name: "Prof. Dr. Suparna Sau", role: "Hospitality Co-Chair" },
+    ],
+  },
+  {
+    members: [
+      {
+        name: "Prof. Dr. Goutam Dalapati",
+        role: "Industry Chair",
+        org: "CEO - Sunkonnect, Singapore",
+      },
     ],
   },
   {
@@ -38,23 +85,6 @@ const committeeData = [
       { name: "Prof. Dr. Susanta Ray", role: "Member" },
       { name: "Prof. Dr. Sovan Dalai", role: "Member" },
       { name: "Prof. Dr. Tridibesh Nag", role: "Member" },
-    ],
-  },
-  {
-    members: [
-      { name: "Prof. Dr. Tanay Pramanik", role: "Publicity Chair" },
-      { name: "Prof. Dr. Sayantan Sil", role: "Finance Chair" },
-      { name: "Prof. Dr. Arkabrata Gupta", role: "Finance Co-Chair" },
-      { name: "Prof. Dr. Abhishek Haldar", role: "Hospitality Chair" },
-      { name: "Prof. Subrata Mondal", role: "Hospitality Co-Chair" },
-      { name: "Prof. Isita Chandra", role: "Hospitality Co-Chair" },
-      { name: "Prof. Pradipta Sarkar", role: "Hospitality Co-Chair" },
-      { name: "Prof. Dr. Suparna Sau", role: "Hospitality Co-Chair" },
-      {
-        name: "Prof. Dr. Goutam Dalapati",
-        role: "Industry Chair",
-        org: "CEO - Sunkonnect, Singapore",
-      },
     ],
   },
 ];
