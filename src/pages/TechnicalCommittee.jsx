@@ -103,7 +103,11 @@ const tpcDataBatch2 = [
   "Dr Sanjukta Chakraborty, Seacom Skills University",
   "Dr Mauparna Nandan, Techno India",
   "Malay Halder, Aquiver Technologies",
-  "Koushik Das, Aquiver Technologies"
+  "Koushik Das, Aquiver Technologies",
+  "Prakshal Doshi, IEEE Senior Member and Site Reliability Engineer at Apple",
+  "Anvesh Reddy Aileni, Director of AI Solution Architecture - C3.ai",
+  "Rahul Gupta, Senior Software Development Engineer, Amazon Web Services (AWS)",
+  "Sujay Annareddy, Enterprise Product Leader – AI, ML, and Data Platforms, Senior Product Manager, Walmart Global Tech"
 ];
 
 export default function TechnicalProgramCommitteeBatch2() {
