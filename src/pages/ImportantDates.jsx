@@ -1,7 +1,12 @@
 import '../styles/page.css';
 
 const dates = [
-  { label: 'Full Paper Submission Deadline',        date: 'October 15, 2026',  status: 'upcoming' },
+  { 
+    label: 'Full Paper Submission Deadline',        
+    originalDate: 'October 15, 2026',
+    date: 'October 30, 2026',  
+    status: 'upcoming' 
+  },
   { label: 'Final Notification of Acceptance', date: 'January 30, 2027',  status: 'upcoming' },
   { label: 'Registration Deadline',            date: 'February 10, 2027',  status: 'upcoming' },
   { label: 'Camera-Ready Submission',          date: 'February 28, 2027',  status: 'upcoming' },
@@ -27,12 +32,59 @@ export default function ImportantDates() {
         <div className="page-card">
           <h2>Submission Timeline</h2>
 
+          {/* EXTENSION NOTICE */}
+          <div style={{
+            background: '#fff9e6',
+            border: '1px solid #ffe58f',
+            borderLeft: '4px solid #faad14',
+            borderRadius: '6px',
+            padding: '12px 16px',
+            marginBottom: '20px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '12px',
+            fontSize: '14px',
+            color: '#874d00'
+          }}>
+            <span style={{ fontSize: '18px' }}>📢</span>
+            <div>
+              <strong>Extension Notice:</strong> The Full Paper Submission Deadline has been extended by 15 days, from <span style={{ textDecoration: 'line-through', color: '#d9534f' }}>October 15, 2026</span> to <strong>October 30, 2026</strong>.
+            </div>
+          </div>
+
           <div className="timeline">
             {dates.map((item, i) => (
               <div className={`timeline-item ${item.status}`} key={i}>
+                <div className="timeline-dot" />
                 <div className="timeline-content">
                   <span className="timeline-label">{item.label}</span>
-                  <span className="timeline-date">{item.date}</span>
+                  <span className="timeline-date">
+                    {item.originalDate ? (
+                      <span style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+                        <span style={{ color: '#d9534f', textDecoration: 'line-through' }}>
+                          {item.originalDate}
+                        </span>
+                        <span style={{ color: '#28a745', fontWeight: 700 }}>
+                          {item.date}
+                        </span>
+                        <span style={{
+                          fontSize: '11px',
+                          fontWeight: 700,
+                          padding: '2px 8px',
+                          borderRadius: '12px',
+                          backgroundColor: '#e6f4ea',
+                          color: '#137333',
+                          border: '1px solid #b7e1cd',
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.5px'
+                        }}>
+                          Extended
+                        </span>
+                      </span>
+                    ) : (
+                      <span>{item.date}</span>
+                    )}
+                  </span>
                 </div>
               </div>
             ))}

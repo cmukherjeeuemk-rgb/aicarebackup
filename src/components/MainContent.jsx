@@ -1,7 +1,7 @@
 //maincontent.jsx // status: 'past' | 'upcoming' | 'active'
 // Conference was November 2025 — all complete. Styled with clear timeline hierarchy.
 const importantDates = [
-  { title: 'Full paper Submission Deadline',                  value: 'October 31, 2026',        status: 'active',   badge: 'upcoming' },
+  { title: 'Full paper Submission Deadline',                  originalValue: 'October 15, 2026', value: 'October 30, 2026',        status: 'active',   badge: 'upcoming' },
   { title: 'Final Notification of Acceptance',  value: 'January 30, 2027',   status: 'closed',   badge: 'upcoming' },
   { title: 'Registration Deadline',                      value: 'February 10, 2027',     status: 'closed',   badge: 'upcoming' },
   {title:  'camera ready submission', value:'February 28, 2027', status:'closed' , badge:'upcoming'},
@@ -155,7 +155,18 @@ export default function MainContent() {
 
                     <div className="date-item-body">
                       <div className="date-title">{item.title}</div>
-                      <div className="date-value">{item.value}</div>
+                      <div className="date-value">
+                        {item.originalValue ? (
+                          <>
+                            <span style={{ textDecoration: 'line-through', color: '#d9534f', marginRight: '6px', fontSize: '0.9em' }}>
+                              {item.originalValue}
+                            </span>
+                            <span style={{ color: '#28a745', fontWeight: 700 }}>{item.value}</span>
+                          </>
+                        ) : (
+                          item.value
+                        )}
+                      </div>
                     </div>
 
                   </div>
