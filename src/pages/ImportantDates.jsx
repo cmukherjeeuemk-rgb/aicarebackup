@@ -4,7 +4,7 @@ const dates = [
   { 
     label: 'Full Paper Submission Deadline',        
     originalDate: 'October 15, 2026',
-    date: 'October 30, 2026',  
+    date: 'November 30, 2026',  
     status: 'upcoming' 
   },
   { label: 'Final Notification of Acceptance', date: 'January 30, 2027',  status: 'upcoming' },
@@ -48,7 +48,7 @@ export default function ImportantDates() {
           }}>
             <span style={{ fontSize: '18px' }}>📢</span>
             <div>
-              <strong>Extension Notice:</strong> The Full Paper Submission Deadline has been extended by 15 days, from <span style={{ textDecoration: 'line-through', color: '#d9534f' }}>October 15, 2026</span> to <strong>October 30, 2026</strong>.
+              <strong>Extension Notice:</strong> The Full Paper Submission Deadline has been extended from <span style={{ textDecoration: 'line-through', color: '#d9534f' }}>October 15, 2026</span> to <strong>November 30, 2026</strong>.
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 //maincontent.jsx // status: 'past' | 'upcoming' | 'active'
 // Conference was November 2025 — all complete. Styled with clear timeline hierarchy.
 const importantDates = [
-  { title: 'Full paper Submission Deadline',                  originalValue: 'October 15, 2026', value: 'October 30, 2026',        status: 'active',   badge: 'upcoming' },
+  { title: 'Full paper Submission Deadline',                  originalValue: 'October 15, 2026', value: 'November 30, 2026',        status: 'active',   badge: 'upcoming' },
   { title: 'Final Notification of Acceptance',  value: 'January 30, 2027',   status: 'closed',   badge: 'upcoming' },
   { title: 'Registration Deadline',                      value: 'February 10, 2027',     status: 'closed',   badge: 'upcoming' },
   {title:  'camera ready submission', value:'February 28, 2027', status:'closed' , badge:'upcoming'},
